@@ -15,7 +15,7 @@ st.set_page_config(layout="wide")
 device = "mps" if torch.backends.mps.is_available() else "cpu"
 
 # Mistral API details
-MISTRAL_API_KEY = "lHFGShbf91kbUx1vrJ2rqLDIaJnAhYBy"  # Set your API key in environment variables
+MISTRAL_API_KEY = ""  # Set your API key in environment variables
 MISTRAL_API_URL = "https://codestral.mistral.ai/v1/fim/completions"  # Replace with the actual Mistral endpoint
 
 # Check if MISTRAL_API_KEY is set
